@@ -11,8 +11,6 @@ namespace ContosoUniversity.Models
         di generare il database.
         */
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-
-
         public int CourseID { get; set; }
         public string Title { get; set; }
         public int Credits { get; set; }
